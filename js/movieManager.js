@@ -11,9 +11,9 @@ class MovieManager{
     i ad un utente specifico per crearne la whislist
     */
     createWishList(){
-        this.addMovie("Il mio vicino Totoro",true,"Animazione","public","2025-10-08");
-        this.addMovie("Dead Pool",true,"Azione","private","2024-12-15");
-        this.addMovie("Saw X",false,"Horror","public","2026-05-21");
+        this.addMovie("Il mio vicino Totoro","imperdibile","Animazione","public","2025-10-08");
+        this.addMovie("Dead Pool","imperdibile","Azione","private","2024-12-15");
+        this.addMovie("Saw X",null,"Horror","public","2026-05-21");
 
     }
 

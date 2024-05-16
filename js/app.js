@@ -30,10 +30,35 @@ class App{
         th.innerText=m.id;
 
         tr.appendChild(th); 
+
+        let td =document.createElement("td");
+        td.innerText= m.titolo;
+        tr.appendChild(td)
+
+
+        td =document.createElement("td");
+        td.innerText= m.imperdibile;
+        tr.appendChild(td)
+
+
+        td =document.createElement("td");
+        td.innerText= m.categorie;
+        tr.appendChild(td)
+
+
+
+        td =document.createElement("td");
+        td.innerText= m.visibility;
+        tr.appendChild(td)
+
+
+        td =document.createElement("td");
+        td.innerText= m.deadline;
+        tr.appendChild(td)
+
+
         this.moviesConteiner.querySelector("tbody").appendChild(tr);
 
-    
-   
     });
    
     // aggiornare lista film e aggiornare eventi clic per ogni filtro 

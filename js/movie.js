@@ -6,7 +6,7 @@ class movie{
 
     constructor( titolo,impedibile ,categ,vis,scadenza=null){
         this.titolo=titolo;
-        this.impedibile=impedibile;
+        this.imperdibile=impedibile;
         this.categorie=categ;
         this.visibility=vis;
         if(scadenza){
